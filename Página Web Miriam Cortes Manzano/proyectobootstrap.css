@@ -1,0 +1,28 @@
+//bootstrap
+	.row > div{
+        margin-bottom: 15px;
+    }
+
+    .header, .footer{
+        background: #2f2f2f;
+    }
+    .sidebar{
+        background: #dbdfe5;
+    }
+    .intro{
+        background: pink;
+        min-height: 50px;
+		text-align: center;
+    }
+	.intro1{
+        background: pink;
+        min-height: 50px;
+		text-align: left;
+    }
+    .section{
+        min-height: 150px;
+		text-align: center;
+		
+    }
+    .section.bg-alt{
+    }

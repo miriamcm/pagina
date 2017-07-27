@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="estiloproy.css" />
+<title>Perinfo</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="campo.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("p.cookies").click(function(){
+			$(this).slideUp();
+				});
+			});
+</script>
+</head>
+<body>
+	<p class="cookies">En esta web hay cookies si pulsame para activarlas</p>
+</div>
+	<div class="container">
+	
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="intro"><img src="proy.jpg" alt="corazon con huella e fondo blanco que se refiere al logotipo de la pagina" id="logo"/></div>
+            </div>
+			<div class="col-xs-8">
+                <div class="intro"><p>Perinfo</p></div>
+            </div>
+			<div class="col-xs-8">
+                <div class="intro1"><p>Toda la información que busca sobre su mascota.</p></div>
+            </div>
+        </div>
+		<div class="row" >
+            <div class="col-xs-8">
+                <ul class="nav nav-pills">
+							<li class="active"><a href="proyectopag1.html">Adopción</a></li>
+							<li><a href="proyectopag2.html">Pastor Alemán</a></li>
+							<li><a href="proyectopag3.html">husky</a></li>
+							<li><a href="proyectopag4.html">Labrador</a> </li>
+							<li><a href="proyectopag5.html">Formulario</a> </li>
+				</ul>
+            </div>
+      
+            <div class="col-xs-4" id="buscador">
+                <div class="input-group">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">Buscar</button>
+						</span>
+						<input type="text" class="form-control">
+				</div>
+            </div>
+        </div>
+		
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="section"><h1 class="titulotext">Formulario de Contacto</h1></div>
+			</div>
+		</div>	
+		
+		 <div class="row">
+			 <div class="col-xs-12">
+				<div class="section bg-alt" id="formulario">
+					<form role="form" name="formulario"  onsubmit="return validateForm()" method= "post">
+						<div class="form-group">
+							<label for="ejemplo_password_1">Nombre</label>
+							<input type="name" name="nombre" class="form-control" id="name" placeholder="Margarita">
+						</div>
+						<div class="form-group">
+							<label for="ejemplo_email_1">Email</label>
+							<input type="email" name="emailusuario" class="form-control" id="emailusuario" placeholder="margarita@ejemplo.com">
+						</div>
+						<div class="form-group">
+						<label for="comentario">Comentario</label>
+						<textarea class="form-control" name="comentario" id="comentario" rows="3" placeholder="Escriba aqui..."></textarea>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="aceptar" id="aceptar"> Acepto que mi cometario pueda ser publicado </input>
+							</label>
+						</div>
+						<button type="submit" class="btn btn-default">Enviar</button>
+					</form>	
+				</div>
+            </div>
+		</div>
+		
+		<div class="row" id="footer">
+            <div class="col-xs-6" >
+                <div class="footer1"><p>Creado por: Miriam Cortés Manzano.</p></div>
+            </div>
+			<div class="col-xs-3" >
+                <div class="rrss"><a href="https://www.instagram.com/mimirii3/?hl=es">
+				<img class="icono" src="contacinsta.jpg" alt="icono de la red social de instagram"/>
+				</a></div>
+            </div>
+			<div class="col-xs-3" >
+                <div class="rrss"><a href="https://www.facebook.com/miriam.cortesmanzano1">
+				<img class="icono" src="contacTface.png" alt="icono de la red social de facebook" />
+				</a></div>
+			</div>
+        </div>
+	</div>
+</body>
+</html>                                		
